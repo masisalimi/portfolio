@@ -8,8 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <script src="js/script.js" defer></script>
     <title>صفحه شخصی</title>
   </head>
+
   <body>
     <header>
       <div class="logo">صفحه شخصی من</div>
@@ -21,6 +23,7 @@
           <li><a href="#projects">پروژه ها</a></li>
         </ul>
       </nav>
+      <button id="theme-toggle">🌙</button>
     </header>
 
     <main>
@@ -88,7 +91,8 @@
     </main>
     <footer>
       <p>در مسیر یادگیری و کسب مهارتهای جدید هستم.</p>
-      <p>© 2026 تمامی حقوق محفوظ است.</p>
+      <p>© <span id="year"></span> تمامی حقوق محفوظ است.</p>
     </footer>
+    <button id="back-to-top" title="بازگشت به بالا">↑</button>
   </body>
 </html>
