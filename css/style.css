@@ -108,6 +108,7 @@ section h2 {
 .skills ul {
     display: flex;
     gap: 15px;
+    list-style: none;
 }
 
 .skills li {    
